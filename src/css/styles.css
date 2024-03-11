@@ -1,12 +1,19 @@
+@import url(./vite-promo.css);
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  padding: 20px;
+  box-sizing: border-box;
+  padding: 0;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 0;
+  padding-top: 36px;
 }
 
-.form {
+.search-form {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
