@@ -61,8 +61,17 @@ function showLoader() {
     }
 }
 
+// function hideLoader() {
+//     if (loader) {
+//         loader.style.display = 'none';
+//     }
+// }
 function hideLoader() {
+    const loader = document.querySelector('.loader');
     if (loader) {
         loader.style.display = 'none';
     }
 }
+
+
+document.addEventListener('DOMContentLoaded', hideLoader);
